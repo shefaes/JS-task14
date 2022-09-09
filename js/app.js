@@ -17,16 +17,17 @@
  
 function Groups(){ 
     var value = document.getElementById('inp').value
-    var x = value(slice(-3))
+    var x = value.slice(1,2)
     if (x==1){
-     x.style.backgroundColor = "yellow"
+     document.body.style.backgroundColor = "yellow"
     }
      else if (x==2){
-        x.style.backgroundColor = "orange"
+      document.body.style.backgroundColor = "orange"
      }
 
      else if (x==3){
-        x.style.backgroundColor = "blue"
+      document.body.style.backgroundColor = "blue"
+
      } 
     }
     
