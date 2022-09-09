@@ -1,0 +1,10 @@
+button{
+    display: flex;
+    width: 10%;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    
+    
+}
